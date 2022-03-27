@@ -9,7 +9,21 @@
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": false,
-    "components": [],
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Battle Pass",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Battle Pass",
+          "x": 60,
+          "y": 67
+        }
+      }
+    ],
     "gridSettings": {
       "sx": 18,
       "sy": 18,

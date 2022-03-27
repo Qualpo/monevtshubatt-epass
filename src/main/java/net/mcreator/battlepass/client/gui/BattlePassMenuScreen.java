@@ -65,6 +65,7 @@ public class BattlePassMenuScreen extends AbstractContainerScreen<BattlePassMenu
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, "Battle Pass", 7, 5, -12829636);
 	}
 
 	@Override
