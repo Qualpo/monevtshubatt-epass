@@ -4,6 +4,9 @@
   "definition": {
     "triggerKey": "B",
     "keyBindingName": "Open Menu",
-    "keyBindingCategoryKey": "ui"
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "OpenMenuOnKeyPressed"
+    }
   }
 }
