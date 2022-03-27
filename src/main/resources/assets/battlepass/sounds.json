@@ -1,6 +1,7 @@
 {
   "fart_and_shit_and_cum": {
     "category": "player",
+    "subtitle": "subtitles.fart_and_shit_and_cum",
     "sounds": [
       {
         "name": "battlepass:fart",
@@ -10,6 +11,7 @@
   },
   "faart": {
     "category": "player",
+    "subtitle": "subtitles.faart",
     "sounds": [
       {
         "name": "battlepass:fart-with-reverb",

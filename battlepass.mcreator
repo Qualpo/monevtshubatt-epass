@@ -95,6 +95,77 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "poop"
+    },
+    {
+      "name": "HornyOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horny_on_effect_active_tick",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Horny",
+      "type": "potioneffect",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horny"
+    },
+    {
+      "name": "HornyDamageStore",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horny_damage_store",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HornyEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horny_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HornyEffectExpires",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horny_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -105,7 +176,7 @@
         "fart"
       ],
       "category": "player",
-      "subtitle": ""
+      "subtitle": "fart and shit and cum"
     },
     {
       "name": "faart",
@@ -113,15 +184,16 @@
         "fart-with-reverb"
       ],
       "category": "player",
-      "subtitle": ""
+      "subtitle": "fart"
     }
   ],
   "language_map": {
     "en_us": {
-      "subtitles.faart": "",
+      "subtitles.faart": "fart",
+      "effect.battlepass.horny": "Horny",
       "key.battlepass.open_menu": "Open Menu",
       "item.battlepass.vbuck": "Vbuck",
-      "subtitles.fart_and_shit_and_cum": ""
+      "subtitles.fart_and_shit_and_cum": "fart and shit and cum"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Horny",
+    "icon": "sus_core.png",
+    "color": {
+      "value": -39169,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "HornyEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "HornyEffectExpires"
+    }
+  }
+}
