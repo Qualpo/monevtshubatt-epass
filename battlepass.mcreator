@@ -1,20 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "VBuck",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "v_buck"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.battlepass.v_buck": "VBuck"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
