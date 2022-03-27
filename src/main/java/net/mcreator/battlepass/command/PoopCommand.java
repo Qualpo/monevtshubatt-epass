@@ -45,7 +45,7 @@ public class PoopCommand {
 			index[0]++;
 		});
 
-		PoopCommandExecutedProcedure.execute(world, x, y, z);
+		PoopCommandExecutedProcedure.execute(world, x, y, z, entity);
 		return 0;
 	}
 }

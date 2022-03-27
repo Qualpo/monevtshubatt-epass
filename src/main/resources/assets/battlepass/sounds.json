@@ -1,0 +1,20 @@
+{
+  "fart_and_shit_and_cum": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "battlepass:fart",
+        "stream": false
+      }
+    ]
+  },
+  "faart": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "battlepass:fart-with-reverb",
+        "stream": false
+      }
+    ]
+  }
+}

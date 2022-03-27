@@ -66,6 +66,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -94,11 +98,30 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "fart_and_shit_and_cum",
+      "files": [
+        "fart"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "faart",
+      "files": [
+        "fart-with-reverb"
+      ],
+      "category": "player",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
+      "subtitles.faart": "",
       "key.battlepass.open_menu": "Open Menu",
-      "item.battlepass.vbuck": "Vbuck"
+      "item.battlepass.vbuck": "Vbuck",
+      "subtitles.fart_and_shit_and_cum": ""
     }
   },
   "foldersRoot": {
