@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "battlepass:block/poop_dimention_portal_ew"
+    },
+    "axis=x": {
+      "model": "battlepass:block/poop_dimention_portal_ns"
+    }
+  }
+}

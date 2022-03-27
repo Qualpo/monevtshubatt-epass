@@ -182,6 +182,33 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "poop_biome"
+    },
+    {
+      "name": "BillsHouse",
+      "type": "structure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bills_house"
+    },
+    {
+      "name": "PoopDimention",
+      "type": "dimension",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop_dimention",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "MrPoop",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_poop"
     }
   ],
   "variable_elements": [],
@@ -209,9 +236,12 @@
       "effect.battlepass.horny": "Horny",
       "block.battlepass.poop_block": "Poop Block",
       "biome.battlepass.poop_biome": "Poop Biome",
+      "item.battlepass.poop_dimention": "Poop Dimention Portal Igniter",
       "key.battlepass.open_menu": "Open Menu",
+      "entity.battlepass.mr_poop": "Mr Poop",
       "item.battlepass.vbuck": "Vbuck",
-      "subtitles.fart_and_shit_and_cum": "fart and shit and cum"
+      "subtitles.fart_and_shit_and_cum": "fart and shit and cum",
+      "item.battlepass.mr_poop_spawn_egg": "Mr Poop Spawn Egg"
     }
   },
   "foldersRoot": {

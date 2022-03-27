@@ -10,6 +10,7 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.battlepass.block.PoopDimentionPortalBlock;
 import net.mcreator.battlepass.block.PoopBlockBlock;
 
 import java.util.List;
@@ -19,6 +20,7 @@ import java.util.ArrayList;
 public class BattlepassModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block POOP_BLOCK = register(new PoopBlockBlock());
+	public static final Block POOP_DIMENTION_PORTAL = register(new PoopDimentionPortalBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
