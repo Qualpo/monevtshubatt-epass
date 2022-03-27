@@ -166,6 +166,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "PoopBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop_block"
+    },
+    {
+      "name": "PoopBiome",
+      "type": "biome",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop_biome"
     }
   ],
   "variable_elements": [],
@@ -191,6 +207,8 @@
     "en_us": {
       "subtitles.faart": "fart",
       "effect.battlepass.horny": "Horny",
+      "block.battlepass.poop_block": "Poop Block",
+      "biome.battlepass.poop_biome": "Poop Biome",
       "key.battlepass.open_menu": "Open Menu",
       "item.battlepass.vbuck": "Vbuck",
       "subtitles.fart_and_shit_and_cum": "fart and shit and cum"

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "battlepass:blocks/poop_block",
+    "up": "battlepass:blocks/poop_block",
+    "north": "battlepass:blocks/poop_block",
+    "east": "battlepass:blocks/poop_block",
+    "south": "battlepass:blocks/poop_block",
+    "west": "battlepass:blocks/poop_block",
+    "particle": "battlepass:blocks/poop_block"
+  }
+}
