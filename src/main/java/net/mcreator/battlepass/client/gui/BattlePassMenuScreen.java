@@ -27,7 +27,7 @@ public class BattlePassMenuScreen extends AbstractContainerScreen<BattlePassMenu
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 321;
-		this.imageHeight = 117;
+		this.imageHeight = 166;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("battlepass:textures/battle_pass_menu.png");
@@ -46,6 +46,10 @@ public class BattlePassMenuScreen extends AbstractContainerScreen<BattlePassMenu
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("battlepass:textures/battle_pass_output_border.png"));
+		this.blit(ms, this.leftPos + 261, this.topPos + 79, 0, 0, 32, 32, 32, 32);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -65,7 +69,8 @@ public class BattlePassMenuScreen extends AbstractContainerScreen<BattlePassMenu
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Battle Pass", 7, 5, -12829636);
+		this.font.draw(poseStack, "Battle Pass", 6, 6, -12829636);
+		this.font.draw(poseStack, "item here", 256, 113, -12829636);
 	}
 
 	@Override

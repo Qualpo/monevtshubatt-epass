@@ -211,7 +211,14 @@
       "registry_name": "mr_poop"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "battlepasslevel",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "fart_and_shit_and_cum",
