@@ -18,5 +18,11 @@ authors="toxix, MCreator"
     side="BOTH"
 
 
+[[dependencies.battlepass]]
+    modId="curios"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
