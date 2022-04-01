@@ -75,7 +75,7 @@ public class BattlePassMenuMenu extends AbstractContainerMenu implements Supplie
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 270, 87) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 263, 37) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;

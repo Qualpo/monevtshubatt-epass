@@ -30,8 +30,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
           "name": "Slot #0",
-          "x": 322,
-          "y": 123
+          "x": 315,
+          "y": 73
         }
       },
       {
@@ -40,8 +40,8 @@
           "image": "battle_pass_output_border.png",
           "use1Xscale": false,
           "name": "battle_pass_output_border.png",
-          "x": 314,
-          "y": 116
+          "x": 308,
+          "y": 66
         }
       },
       {
@@ -53,8 +53,8 @@
             "falpha": 0.0
           },
           "name": "item here",
-          "x": 309,
-          "y": 150
+          "x": 301,
+          "y": 102
         }
       }
     ],

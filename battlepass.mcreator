@@ -209,6 +209,28 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mr_poop"
+    },
+    {
+      "name": "BattlePass",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battle_pass",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AddBattlePassItem",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_battle_pass_item",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [
